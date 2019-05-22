@@ -1,7 +1,7 @@
 #include<stdio.h>
 void Swap(int*a, int*b)
 {
-  int tmp;
+  int tmp = 0;
   tmp = *a;
   *a = *b;
   *b = tmp;
@@ -23,6 +23,7 @@ void Bubblesort( int*arr, int size )
     }
     if(Flag == 0)
       return;
+  }
 }
 int main()
 {
