@@ -59,7 +59,7 @@ int main(int argc,char *argv[])
     int pid;
     int fd[2];
 
-    if(argc < 3)
+    if(argc < 2)
     {
         fprintf(stderr,"usage %s argv[1] argv[2].\n",argv[0]);
         exit(EXIT_FAILURE);
